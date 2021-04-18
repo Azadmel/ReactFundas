@@ -6,7 +6,8 @@ import Welcome from './components/Welcome'
 function App() {
   return (
     <div className="App">
-      <Greet></Greet>
+      <Greet name="Mehul" heroName="Marvelous"/>
+      <Greet name="Chris" heroName="Cutie"/>
       <Welcome></Welcome>
     </div>
   );
