@@ -1,6 +1,5 @@
 import React from 'react'
 
-export const Greet = (props) => {
-    console.log(props)
-    return <h1>Hello {props.name} aka {props.heroName}</h1>
+export const Greet = ({name, heroName}) => {
+    return <h1>Hello {name} aka {heroName}</h1>
 }
