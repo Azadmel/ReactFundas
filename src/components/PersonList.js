@@ -1,4 +1,5 @@
 import React from 'react'
+import Person from './Person'
 
 function PersonList() {
 
@@ -16,7 +17,7 @@ function PersonList() {
         }
     ]
 
-    const jsxPersonsList = persons.map(person => <h2>I am {person.name} and I know {person.skill}</h2>)
+    const jsxPersonsList = persons.map(person => <Person person={person}/>)
 
     return (
         <div>
