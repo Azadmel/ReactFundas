@@ -11,7 +11,8 @@ import ParentComponent from './components/ParentComponent'
 import NameList from './components/NameList'
 import PersonList from './components/PersonList'
 import Stylesheets from './components/Stylesheets'
-import Inline from './components/Inline';
+import Inline from './components/Inline'
+import Form from './components/Form'
 
 function App() {
   return (
@@ -27,9 +28,10 @@ function App() {
       <NameList/>
       <PersonList/>
       <Stylesheets primary={false}/>
+      <Inline/>
       */}
 
-      <Inline/>
+      <Form/>
     </div>
   );
 }
