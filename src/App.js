@@ -11,6 +11,7 @@ import ParentComponent from './components/ParentComponent'
 import NameList from './components/NameList'
 import PersonList from './components/PersonList'
 import Stylesheets from './components/Stylesheets'
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -24,9 +25,11 @@ function App() {
       <EventBind/> 
       <ParentComponent/>
       <NameList/>
-      <PersonList/> */}
-
+      <PersonList/>
       <Stylesheets primary={false}/>
+      */}
+
+      <Inline/>
     </div>
   );
 }
