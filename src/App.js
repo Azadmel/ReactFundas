@@ -26,7 +26,7 @@ function App() {
       <NameList/>
       <PersonList/> */}
 
-      <Stylesheets/>
+      <Stylesheets primary={false}/>
     </div>
   );
 }
