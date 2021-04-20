@@ -31,9 +31,14 @@ class Form extends Component {
         })
     }
 
+    handleFormSubmission = (event) => {
+        alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+        event.preventDefault() //this prevents the default behavior of page refresh upon submit
+    }
+
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleFormSubmission}>
                 <label>username</label>
                 <input type='text' value={this.state.username} onChange={this.handleUsernameChange}></input>
                 <label>comments</label>
@@ -44,6 +49,7 @@ class Form extends Component {
                     <option value='angular'>angular</option>
                     <option value='vue'>vue</option>
                 </select>
+                <button type='submit'>Submit</button>
             </form>
         )
     }
