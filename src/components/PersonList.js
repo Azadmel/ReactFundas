@@ -17,7 +17,7 @@ function PersonList() {
         }
     ]
 
-    const jsxPersonsList = persons.map(person => <Person person={person}/>)
+    const jsxPersonsList = persons.map(person => <Person key={person.id} person={person}/>)
 
     return (
         <div>
