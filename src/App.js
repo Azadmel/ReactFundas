@@ -10,6 +10,7 @@ import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import NameList from './components/NameList'
 import PersonList from './components/PersonList'
+import Stylesheets from './components/Stylesheets'
 
 function App() {
   return (
@@ -22,8 +23,10 @@ function App() {
       <ClassClick/> 
       <EventBind/> 
       <ParentComponent/>
-      <NameList/> */}
-      <PersonList/>
+      <NameList/>
+      <PersonList/> */}
+
+      <Stylesheets/>
     </div>
   );
 }
