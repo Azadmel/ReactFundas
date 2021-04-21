@@ -13,7 +13,7 @@ import PersonList from './components/PersonList'
 import Stylesheets from './components/Stylesheets'
 import Inline from './components/Inline'
 import Form from './components/Form'
-import PureComp from './components/PureComp'
+import ParentComp from './components/ParentComp'
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
       <Inline/>
       <Form/>
       */}
-      <PureComp/>
+      <ParentComp/>
     </div>
   );
 }
