@@ -13,6 +13,7 @@ import PersonList from './components/PersonList'
 import Stylesheets from './components/Stylesheets'
 import Inline from './components/Inline'
 import Form from './components/Form'
+import PureComp from './components/PureComp'
 
 function App() {
   return (
@@ -29,9 +30,9 @@ function App() {
       <PersonList/>
       <Stylesheets primary={false}/>
       <Inline/>
-      */}
-
       <Form/>
+      */}
+      <PureComp/>
     </div>
   );
 }
